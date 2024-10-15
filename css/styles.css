@@ -535,6 +535,7 @@ body {
     }
 
     .footer__brand img {
+        margin-left: 4rem;
         max-width: 80px;
         height: auto;
     }
@@ -603,7 +604,7 @@ body {
         /* Centra el logo */
         
     }
-    
+
     .seccion-whatsapp{
         margin-left: 2rem;
         margin-top: -0.5rem;
