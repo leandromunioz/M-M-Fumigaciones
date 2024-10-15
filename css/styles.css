@@ -552,39 +552,35 @@ body {
 
 /* Ajustes responsivos para pantallas más pequeñas */
 @media (max-width: 768px) {
-    .footer__content {
-        flex-direction: column;
-        align-items: center;
+
+
+    
+    
+   
+    .banner-urgencias {
+    
+        margin-top: 28rem;
+        height: 13rem;
         text-align: center;
-    }
 
-    .footer__brand {
-        display: flex;
-        justify-content: center; /* Asegura que el logo se centre */
-        margin-bottom: 1rem;
-        flex-grow: 1; /* Permite que el logo se centre dentro de su contenedor */
+    
     }
-
-    .footer__brand img {
-        max-width: 80px; /* Ajusta el tamaño del logo para pantallas pequeñas */
-        height: auto;
-        margin-left: 4rem;
-    }
-
-    .footer__links ul {
+    
+    .servicio-contenido {
         flex-direction: column;
-        align-items: center;
     }
 
-    .footer__links ul li {
-        margin-bottom: 0.5rem;
+    .servicio__imagen {
+        width: 95%;
+        
     }
 
-    .footer__content > p {
-        font-size: 1.2rem;
+    .grid-container-mapas {
+        grid-template-columns: 1fr;
     }
+
+    
 }
-
 
 
 
@@ -607,11 +603,12 @@ body {
         /* Centra el logo */
         
     }
-
+    
     .seccion-whatsapp{
-        margin-top: 2rem;
-        margin-bottom: 5rem;
+        margin-left: 2rem;
+        margin-top: -0.5rem;
     }
+
     .header__nav {
         text-align: center;
         margin: 1rem 0;
